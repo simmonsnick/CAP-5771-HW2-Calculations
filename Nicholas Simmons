@@ -72,4 +72,15 @@ gini_m = 1 - (3/7)**2 - (4/7)**2
 gini_lg = 1 - (2/4)**2 - (2/4)**2
 gini_xl = 1 - (2/4)**2 - (2/4)**2
 
-
+#Q7 Calculations 
+#Info Gain
+ID = -(0.5) * math.log2(0.5) - (0.5) * math.log2(0.5) 
+print("Split ID")
+print(ID)
+Handedness = - (0.1) * math.log2(0.1) - (0.9) * math.log2(0.9)
+print("Split Handedness")
+print(Handedness)
+#No data in ID attribute equals zero
+entropy = (0.0 * 0.0 + 0.5 * 0.46 + 0.5 * 0.46)
+print("Info Gain")
+print(entropy)
